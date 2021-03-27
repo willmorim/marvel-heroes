@@ -57,12 +57,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ```bash
 # Clone este repositório
 $ git clone https://github.com/willmorim/marvel-heroes.git
+
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd marvel-heroes
+
 # Instale as dependências
 $ yarn install
-# Execute a aplicação
-$ yarn start
+
+# Execute a aplicação em iOS
+$ yarn ios
+
+# Execute a aplicação em Android
+$ yarn android
 ```
 
 Caso queira utilizar uma API com os dados como eu fiz sugiro que siga as instruções desde repositório. [Link da API](https://github.com/WallysonGalvao/umpontoseis-marvel-api)
@@ -77,12 +83,8 @@ $ cd umpontoseis-marvel-api
 # Instale as dependências
 $ yarn install
 
-# Execute a aplicação em iOS
-$ yarn ios
-
-# Execute a aplicação em Android
-$ yarn android
-
+# Execute a aplicação
+$ yarn start
 
 # Acessar http://localhost:3333
 ```
