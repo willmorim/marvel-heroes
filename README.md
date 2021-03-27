@@ -34,6 +34,7 @@ Este é o segundo projeto da **[umpontoseis](https://umpontoseis.com/)** criado 
     <img alt="spiderDetail" title="#spiderDetail" src="./resources/spiderDetail.png" width="320px" />
     <img alt="ironMan" title="#ironMan" src="./resources/ironMan.png" width="320px" />
     <img alt="ironManDetail" title="#ironManDetail" src="./resources/ironManDetail.png" width="320px" />
+    <img alt="marvel-app" title="#marvelApp" src="./resources/marvelApp.gif" width="320px" />
 </p>
 
 Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](https://www.figma.com/community/file/849367817302905364)
