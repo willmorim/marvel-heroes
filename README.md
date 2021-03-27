@@ -29,11 +29,11 @@ Este é o segundo projeto da **[umpontoseis](https://umpontoseis.com/)** criado 
 
 <p align="center">
     <img alt="marvel" title="#marvel" src="./resources/figma.png" width="720px" />
-    <img alt="application" title="#application" src="./resources/1.png" width="320px" />
-    <img alt="spider" title="#spider" src="./resources/2.png" width="320px" />
-    <img alt="spiderDetail" title="#spiderDetail" src="./resources/3.png" width="320px" />
-    <img alt="ironMan" title="#ironMan" src="./resources/4.png" width="320px" />
-    <img alt="ironManDetail" title="#ironManDetail" src="./resources/5.png" width="320px" />
+    <img alt="application" title="#application" src="./resources/application.png" width="320px" />
+    <img alt="spider" title="#spider" src="./resources/spider.png" width="320px" />
+    <img alt="spiderDetail" title="#spiderDetail" src="./resources/spiderDetail.png" width="320px" />
+    <img alt="ironMan" title="#ironMan" src="./resources/ironMan.png" width="320px" />
+    <img alt="ironManDetail" title="#ironManDetail" src="./resources/ironManDetail.png" width="320px" />
 </p>
 
 Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](https://www.figma.com/community/file/849367817302905364)
