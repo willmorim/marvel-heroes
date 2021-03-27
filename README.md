@@ -77,8 +77,12 @@ $ cd umpontoseis-marvel-api
 # Instale as dependências
 $ yarn install
 
-# Execute a aplicação
-$ yarn start
+# Execute a aplicação em iOS
+$ yarn ios
+
+# Execute a aplicação em Android
+$ yarn android
+
 
 # Acessar http://localhost:3333
 ```
