@@ -1,11 +1,11 @@
 <h1 align="center">
     <a href="https://umpontoseis.com/" target="_blank">
-      <img alt="umpontoseis" title="#umpontoseis" src=".github/umpontoseis-logo.svg" width="250px" />
+      <img alt="umpontoseis" title="#umpontoseis" src=".resources/umpontoseis-logo.svg" width="250px" />
     </a>
 </h1>
 
 <h1 align="center">
-    <img alt="marvel" title="#marvel" src=".github/logo.svg" width="250px" />
+    <img alt="marvel" title="#marvel" src=".resources/marvelgit.svg" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -28,7 +28,7 @@ Este é o segundo projeto da **[umpontoseis](https://umpontoseis.com/)** criado 
 ## 🎨 Layout
 
 <p align="center">
-    <img alt="marvel" title="#marvel" src=".github/app.png" width="720px" />
+    <img alt="marvel" title="#marvel" src=".resources/figma.png" width="720px" />
 </p>
 
 Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](https://www.figma.com/community/file/849367817302905364)
