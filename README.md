@@ -65,6 +65,24 @@ $ yarn install
 $ yarn start
 ```
 
+Caso queira utilizar uma API com os dados como eu fiz sugiro que siga as instruções desde repositório. [Link da API](https://github.com/WallysonGalvao/umpontoseis-marvel-api)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/WallysonGalvao/umpontoseis-marvel-api.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd umpontoseis-marvel-api
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação
+$ yarn start
+
+# Acessar http://localhost:3333
+```
+
 ## :construction: Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
