@@ -32,8 +32,6 @@ Este é o segundo projeto da **[umpontoseis](https://umpontoseis.com/)** criado 
     <img alt="marvel" title="#marvel" src="./resources/1.png"/>
     <img alt="marvel" title="#marvel" src="./resources/2.png"/>
     <img alt="marvel" title="#marvel" src="./resources/3.png"/>
-    <img alt="marvel" title="#marvel" src="./resources/4.png"/>
-    <img alt="marvel" title="#marvel" src="./resources/5.png"/>
 </p>
 
 Você pode utilizar a seguinte URL para visualizar todas as telas: [Visualizar](https://www.figma.com/community/file/849367817302905364)
