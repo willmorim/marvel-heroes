@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003688E5CAB042009B1CEA42 /* gilroy-heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-heavy.ttf"; path = "../assets/fonts/gilroy-heavy.ttf"; sourceTree = "<group>"; };
+		003688E5CAB042009B1CEA42 /* gilroy-heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-heavy.ttf"; path = "../assets/fonts/gilroy-heavy.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* marvelHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marvelHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* marvelHeroesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marvelHeroesTests.m; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		54827D64C7223CE0E306439A /* Pods-marvelHeroes-marvelHeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelHeroes-marvelHeroesTests.release.xcconfig"; path = "Target Support Files/Pods-marvelHeroes-marvelHeroesTests/Pods-marvelHeroes-marvelHeroesTests.release.xcconfig"; sourceTree = "<group>"; };
 		5AECBB2E07BD56887BCFE46B /* Pods-marvelHeroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelHeroes.release.xcconfig"; path = "Target Support Files/Pods-marvelHeroes/Pods-marvelHeroes.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = marvelHeroes/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8641F1D4F3F345AFA2654F71 /* gilroy-semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-semibold.ttf"; path = "../assets/fonts/gilroy-semibold.ttf"; sourceTree = "<group>"; };
-		AC35E58DF05E44E4942AFD2E /* gilroy-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-regular.ttf"; path = "../assets/fonts/gilroy-regular.ttf"; sourceTree = "<group>"; };
-		B684B9B99F424B8A9BB2F3B2 /* gilroy-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-bold.ttf"; path = "../assets/fonts/gilroy-bold.ttf"; sourceTree = "<group>"; };
-		B69AD874DB61482087154009 /* gilroy-medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-medium.ttf"; path = "../assets/fonts/gilroy-medium.ttf"; sourceTree = "<group>"; };
+		8641F1D4F3F345AFA2654F71 /* gilroy-semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-semibold.ttf"; path = "../assets/fonts/gilroy-semibold.ttf"; sourceTree = "<group>"; };
+		AC35E58DF05E44E4942AFD2E /* gilroy-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-regular.ttf"; path = "../assets/fonts/gilroy-regular.ttf"; sourceTree = "<group>"; };
+		B684B9B99F424B8A9BB2F3B2 /* gilroy-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-bold.ttf"; path = "../assets/fonts/gilroy-bold.ttf"; sourceTree = "<group>"; };
+		B69AD874DB61482087154009 /* gilroy-medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gilroy-medium.ttf"; path = "../assets/fonts/gilroy-medium.ttf"; sourceTree = "<group>"; };
 		DC93FDB4ADD3F01A549B59B0 /* Pods-marvelHeroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelHeroes.debug.xcconfig"; path = "Target Support Files/Pods-marvelHeroes/Pods-marvelHeroes.debug.xcconfig"; sourceTree = "<group>"; };
 		E19CBDE363117C747CD2FF63 /* Pods-marvelHeroes-marvelHeroesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvelHeroes-marvelHeroesTests.debug.xcconfig"; path = "Target Support Files/Pods-marvelHeroes-marvelHeroesTests/Pods-marvelHeroes-marvelHeroesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,7 +86,6 @@
 				8641F1D4F3F345AFA2654F71 /* gilroy-semibold.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		00E356EF1AD99517003FC87E /* marvelHeroesTests */ = {
@@ -169,7 +168,6 @@
 				E19CBDE363117C747CD2FF63 /* Pods-marvelHeroes-marvelHeroesTests.debug.xcconfig */,
 				54827D64C7223CE0E306439A /* Pods-marvelHeroes-marvelHeroesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
