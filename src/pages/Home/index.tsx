@@ -37,7 +37,7 @@ interface ICharacter {
   imagePath: string;
 }
 
-const Home: React.FC = () => {
+export function Home() {
   const navigation = useNavigation();
   const [characters, setCharacters] = useState<ICharacter[]>([]);
 
@@ -176,6 +176,4 @@ const Home: React.FC = () => {
       </Content>
     </Container>
   );
-};
-
-export default Home;
+}

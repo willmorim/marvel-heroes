@@ -64,7 +64,7 @@ interface IDetailsCharacter {
   };
 }
 
-const Details: React.FC = () => {
+export function Details() {
   const navigation = useNavigation();
   const route = useRoute();
   const routeParams = route.params as IDetailsCharacter;
@@ -160,6 +160,4 @@ const Details: React.FC = () => {
       </Container>
     </Image>
   );
-};
-
-export default Details;
+}
