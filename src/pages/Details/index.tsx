@@ -33,7 +33,7 @@ import Weight from '../../assets/icons/weight.svg';
 import Height from '../../assets/icons/height.svg';
 import Universe from '../../assets/icons/universe.svg';
 
-import AbilitiesLevel from '../../components/AbilitiesLevel';
+import { AbilitiesLevel } from '../../components/AbilitiesLevel';
 
 interface IDetailsCharacter {
   character: {

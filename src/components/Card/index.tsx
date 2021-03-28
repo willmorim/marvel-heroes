@@ -9,7 +9,7 @@ interface CardProps {
   imagePath: string;
 }
 
-const Card: React.FC<CardProps> = ({ name, alterEgo, imagePath }) => {
+export function Card({ name, alterEgo, imagePath }: CardProps) {
   return (
     <Container>
       <Image source={{ uri: `http://localhost:3333/${imagePath}` }} />
@@ -19,6 +19,4 @@ const Card: React.FC<CardProps> = ({ name, alterEgo, imagePath }) => {
       </InfoHero>
     </Container>
   );
-};
-
-export default Card;
+}

@@ -7,13 +7,11 @@ interface CategoryProps {
   title: string;
 }
 
-const Category: React.FC<CategoryProps> = ({ title }) => {
+export function Category({ title }: CategoryProps) {
   return (
     <Container>
       <Title>{title}</Title>
       <Subtitle>Ver tudo</Subtitle>
     </Container>
   );
-};
-
-export default Category;
+}

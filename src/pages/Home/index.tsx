@@ -26,8 +26,8 @@ import AntiHero from '../../assets/icons/antihero.svg';
 import Alien from '../../assets/icons/alien.svg';
 import Human from '../../assets/icons/human.svg';
 
-import Category from '../../components/Category';
-import Card from '../../components/Card';
+import { Category } from '../../components/Category';
+import { Card } from '../../components/Card';
 
 interface ICharacter {
   id: string;

@@ -6,7 +6,7 @@ interface ISkillBar {
   level: number;
 }
 
-const AbilitiesLevel: React.FC<ISkillBar> = ({ level }) => {
+export function AbilitiesLevel({ level }: ISkillBar) {
   const [bars, setBars] = useState<number[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
@@ -32,6 +32,4 @@ const AbilitiesLevel: React.FC<ISkillBar> = ({ level }) => {
         ))}
     </Container>
   );
-};
-
-export default AbilitiesLevel;
+}
