@@ -6,6 +6,8 @@ interface ISkillBar {
   level: number;
 }
 
+const MAX_LEVEL = 44;
+
 export function AbilitiesLevel({ level }: ISkillBar) {
   const [bars, setBars] = useState<number[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -13,7 +15,7 @@ export function AbilitiesLevel({ level }: ISkillBar) {
   useEffect(() => {
     setBars([]);
 
-    for (let items = 1; items <= 44; items += 1) {
+    for (let items = 1; items <= MAX_LEVEL; items += 1) {
       setBars((oldValue: number[]) => [...oldValue, items]);
     }
 
@@ -26,8 +28,8 @@ export function AbilitiesLevel({ level }: ISkillBar) {
         bars.map(data => (
           <Level
             key={data}
-            color={data <= Math.round((level * 44) / 100)}
-            height={data === Math.round((level * 44) / 100)}
+            color={data <= Math.round((level * MAX_LEVEL) / 100)}
+            height={data === Math.round((level * MAX_LEVEL) / 100)}
           />
         ))}
     </Container>

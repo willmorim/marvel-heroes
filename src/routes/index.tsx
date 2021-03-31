@@ -5,16 +5,16 @@ import { Details } from '../pages/Details';
 
 const App = createStackNavigator();
 
-const AppRoutes: React.FC = () => (
-  <App.Navigator
-    screenOptions={{
-      headerShown: false,
-      cardStyle: { backgroundColor: '#fff' },
-    }}
-  >
-    <App.Screen name="Home" component={Home} />
-    <App.Screen name="Details" component={Details} />
-  </App.Navigator>
-);
-
-export default AppRoutes;
+export function AppRoutes() {
+  return (
+    <App.Navigator
+      screenOptions={{
+        headerShown: false,
+        cardStyle: { backgroundColor: '#fff' },
+      }}
+    >
+      <App.Screen name="Home" component={Home} />
+      <App.Screen name="Details" component={Details} />
+    </App.Navigator>
+  );
+}
