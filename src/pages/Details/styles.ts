@@ -59,26 +59,11 @@ export const AgeText = styled.Text`
   margin-top: 8px;
 `;
 
-export const WeightText = styled.Text`
-  font-family: 'gilroy-medium';
-  color: #fff;
-  font-size: 12px;
-  margin-top: 8px;
-`;
+export const WeightText = styled(AgeText)``;
 
-export const HeightText = styled.Text`
-  font-family: 'gilroy-medium';
-  color: #fff;
-  font-size: 12px;
-  margin-top: 8px;
-`;
+export const HeightText = styled(AgeText)``;
 
-export const UniverseText = styled.Text`
-  font-family: 'gilroy-medium';
-  color: #fff;
-  font-size: 12px;
-  margin-top: 8px;
-`;
+export const UniverseText = styled(AgeText)``;
 
 export const Biography = styled.View`
   margin: 24px 10px 24px 0;
