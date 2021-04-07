@@ -29,6 +29,28 @@ import Human from '../../assets/icons/human.svg';
 import { Category } from '../../components/Category';
 import { Card } from '../../components/Card';
 
+type Category = 'hero' | 'villian' | 'antihero' | 'alien' | 'human';
+
+type CategoryIcons = {
+  [key in Category]: JSX.Element;
+};
+
+const categoryIcons: CategoryIcons = {
+  hero: <Hero />,
+  villian: <Villain />,
+  antihero: <AntiHero />,
+  alien: <Alien />,
+  human: <Human />,
+};
+
+const categories = [
+  'hero',
+  'villian',
+  'antihero',
+  'alien',
+  'human',
+] as Category[];
+
 interface ICharacter {
   id: string;
   name: string;
@@ -60,21 +82,9 @@ export function Home() {
         </Welcome>
 
         <Categories>
-          <Circle colors="hero">
-            <Hero />
-          </Circle>
-          <Circle colors="villian">
-            <Villain />
-          </Circle>
-          <Circle colors="antihero">
-            <AntiHero />
-          </Circle>
-          <Circle colors="alien">
-            <Alien />
-          </Circle>
-          <Circle colors="human">
-            <Human />
-          </Circle>
+          {categories.map((category: Category) => {
+            return <Circle colors={category}>{categoryIcons[category]}</Circle>;
+          })}
         </Categories>
 
         <Section>

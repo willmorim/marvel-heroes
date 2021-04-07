@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Container, Level } from './styles';
+import { Container } from './styles';
+import { Level } from './Level';
 
 interface ISkillBar {
   level: number;
@@ -14,9 +15,10 @@ export function AbilitiesLevel({ level }: ISkillBar) {
     <Container>
       {BARS_LEVELS.map(data => (
         <Level
-          key={data}
-          color={data <= Math.round((level * MAX_LEVEL) / 100)}
-          height={data === Math.round((level * MAX_LEVEL) / 100)}
+          key={`level-${data}`}
+          level={data}
+          alreadyReached={data <= Math.round((level * MAX_LEVEL) / 100)}
+          isCurrentLevel={data === Math.round((level * MAX_LEVEL) / 100)}
         />
       ))}
     </Container>
